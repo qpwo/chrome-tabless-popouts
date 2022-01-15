@@ -2,7 +2,7 @@
     "name": "Tabless Popouts",
     "action": {},
     "manifest_version": 3,
-    "version": "0.1",
+    "version": "1.0",
     "description": "Pop pages out without a tab bar etc. Alt-click a link or hit alt-p on any page to pop it out into a minimal window.",
     "permissions": ["activeTab", "scripting"],
     "content_scripts": [
