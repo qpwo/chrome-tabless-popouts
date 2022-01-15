@@ -1,0 +1,14 @@
+{
+    "name": "Tabless Link Popouts",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Links open in chrome popups without tab bar or anything",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content-script.js"]
+        }
+    ]
+}
